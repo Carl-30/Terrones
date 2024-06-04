@@ -1,0 +1,11 @@
+Router Backbone 1:
+IP: 10.1.1.1/30 (Interfaz hacia Backbone 2)
+IP: 10.1.5.1/30 (Interfaz hacia R5)
+IP: 10.1.8.1/30 (Interfaz hacia Backbone ISP)
+Router Backbone 2:
+IP: 10.1.1.2/30 (Interfaz hacia Backbone 1)
+IP: 10.1.6.1/30 (Interfaz hacia R6)
+IP: 10.1.8.2/30 (Interfaz hacia Backbone ISP)
+Router Backbone ISP:
+IP: 10.1.8.3/30 (Interfaz hacia Backbone 1)
+IP: 10.1.8.4/30 (Interfaz hacia Backbone 2)

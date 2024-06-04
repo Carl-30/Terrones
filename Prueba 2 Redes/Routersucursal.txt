@@ -1,0 +1,7 @@
+En este sector hay 2 router
+ambos están conectados
+comparten una dirección ip la cual es: 
+192.168.103.1 255.255.255.252
+192.168.103.2 255.255.255.252 
+ambos routers te permite tener redundancia en caso de falla de alguno de ellos
+el modelo jerarquico es: capa de distribución  
