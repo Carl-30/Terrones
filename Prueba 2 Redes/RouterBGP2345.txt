@@ -1,0 +1,5 @@
+BGP 2345
+Router 13:
+IP: 10.5.5.1/30 (Interfaz hacia BGP 1415)
+Router 14:
+IP: 10.5.5.2/30 (Interfaz hacia BGP 1415)

@@ -1,0 +1,16 @@
+OSPF Area 123
+Router R1:
+IP: 192.168.1.2/30 (Interfaz hacia Internet Gateway)
+IP: 10.1.12.1/30 (Interfaz hacia R2)
+IP: 10.1.13.1/30 (Interfaz hacia R3)
+IP: 10.1.14.1/30 (Interfaz hacia R4)
+Router R2:
+IP: 10.1.12.2/30 (Interfaz hacia R1)
+IP: 10.1.24.1/30 (Interfaz hacia R4)
+IP: 10.1.23.1/30 (Interfaz hacia R3)
+Router R3:
+IP: 10.1.13.2/30 (Interfaz hacia R1)
+IP: 10.1.23.2/30 (Interfaz hacia R2)
+Router R4:
+IP: 10.1.14.2/30 (Interfaz hacia R1)
+IP: 10.1.24.2/30 (Interfaz hacia R2)

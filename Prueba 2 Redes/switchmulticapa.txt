@@ -1,0 +1,10 @@
+hay 2 switch multicapa en este sector 
+las cuales están conectadas hacia los routers
+sus ip son:
+192.168.104.1 255.255.255.252
+192.168.104.2 255.255.255.252
+también están ambos conectaos 
+y su  ip son:
+192.168.101.1 255.255.255.252
+192.168.101.2 255.255.255.252
+su modelo jerarquico es:capa de acceso 

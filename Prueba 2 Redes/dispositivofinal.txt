@@ -1,0 +1,8 @@
+dispositivo final
+existen 2 dispositivos finales 
+están con sus ip:
+192.168.20.2 255.255.255.0
+192.168.10.2 255.255.255.0
+vlan configuradas la 10 y 20 
+el servicio que se esta utilizando es DHCP
+y el modelo jerarquico es:capa de acceso 
