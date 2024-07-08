@@ -56,9 +56,9 @@ def leer_archivo(nombre_archivo):
 # Función para generar los archivos solicitados
 def generar_archivos_txt():
     archivos_contenidos = {
-        "internet.txt": "Contenido del archivo internet.txt",
-        "oficina remota 5-6.txt": "Contenido del archivo oficina remota 5-6.txt",
-        "oficina remota 3-4.txt": "Contenido del archivo oficina remota 3-4.txt"
+        "Routerdistribucion.txt": "Contenido del archivo Routerdistribucion.txt",
+        "switchmulticapa.txt": "Contenido del archivo switchmulticapa.txt",
+        "dispositivofinal.txt": "Contenido del archivo dispositivofinal.txt"
     }
     
     for nombre_archivo, contenido in archivos_contenidos.items():
@@ -151,31 +151,12 @@ def mostrar_sectores(dispositivos_por_sector):
 
 # Diccionario para almacenar los dispositivos por sector
 dispositivos_por_sector = {
-    1: {
-        'nombre': "Sucursal Principal",
-        'dispositivos': [
-            {'nombre': "Router", 'ip': "192.168.1.1", 'vlan': "10", 'modelo': "Núcleo", 'servicios': "Enrutamiento, Firewall", 'archivo': "Routersucursal.txt", 'mascara': "255.255.255.0"},
-            {'nombre': "Switch Multicapa", 'ip': "192.168.1.2", 'vlan': "20", 'modelo': "Distribución", 'servicios': "Conmutación", 'archivo': "switchmulticapa.txt", 'mascara': "255.255.255.0"},
-            {'nombre': "Dispositivos Finales", 'ip': "192.168.1.3", 'vlan': "30", 'modelo': "Acceso", 'servicios': "Acceso a red", 'archivo': "dispositivofinal.txt", 'mascara': "255.255.255.0"}
-        ]
-    },
     2: {
-        'nombre': "Backbone",
+        'nombre': "Distribución",
         'dispositivos': [
-            {'nombre': "Router", 'ip': "10.0.0.1", 'vlan': "40", 'modelo': "Núcleo", 'servicios': "Enrutamiento", 'archivo': "Routerblackbone.txt", 'mascara': "255.255.255.0"}
-        ]
-    },
-    3: {
-        'nombre': "BGP 2345",
-        'dispositivos': [
-            {'nombre': "Router BGP 2345", 'ip': "10.1.0.1", 'vlan': "50", 'modelo': "Núcleo", 'servicios': "Enrutamiento", 'archivo': "RouterBGP2345.txt", 'mascara': "255.255.255.0"}
-        ]
-    },
-    4: {
-        'nombre': "Oficina Remota",
-        'dispositivos': [
-            {'nombre': "Oficina Remota 1", 'ip': "172.16.0.1", 'vlan': "60", 'modelo': "Distribución", 'servicios': "Conmutación", 'archivo': "oficina remota 1.txt", 'mascara': "255.255.255.0"},
-            {'nombre': "Oficina Remota 2", 'ip': "172.16.0.2", 'vlan': "70", 'modelo': "Distribución", 'servicios': "Conmutación", 'archivo': "oficina remota 2.txt", 'mascara': "255.255.255.0"}
+            {'nombre': "Router Distribución", 'ip': "10.0.0.1", 'vlan': "40", 'modelo': "Distribución", 'servicios': "Enrutamiento", 'archivo': "Routerdistribucion.txt", 'mascara': "255.255.255.0"},
+            {'nombre': "Switch Multicapa", 'ip': "10.0.0.2", 'vlan': "50", 'modelo': "Distribución", 'servicios': "Conmutación", 'archivo': "switchmulticapa.txt", 'mascara': "255.255.255.0"},
+            {'nombre': "Dispositivos Finales", 'ip': "10.0.0.3", 'vlan': "60", 'modelo': "Acceso", 'servicios': "Acceso a red", 'archivo': "dispositivofinal.txt", 'mascara': "255.255.255.0"}
         ]
     }
 }
